@@ -1,0 +1,32 @@
+{
+  "name": "observablegambling",
+  "version": "1.0.0",
+  "description": "Like to gamble? Cannot watch horse races at work? Are you a coder? Well now you can gamble with code. Place your bets on the fastest observable today!",
+  "scripts": {
+    "start": "node Gamble.js",
+    "build": "tsc Gamble.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lDisciple/ObservableGambling.git"
+  },
+  "keywords": [
+    "gambling",
+    "observable",
+    "race"
+  ],
+  "author": "Jonathan Botha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lDisciple/ObservableGambling/issues"
+  },
+  "homepage": "https://github.com/lDisciple/ObservableGambling#readme",
+  "devDependencies": {
+    "@types/node": "^14.14.31",
+    "typescript": "^4.2.2"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "rxjs": "^6.6.3"
+  }
+}
